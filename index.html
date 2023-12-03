@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap</title>
+  <style>
+    body {
+      background-color: aliceblue;
+    }
+  </style>
+</head>
+
+<body class="w-100">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: fixed; width: 100%; ">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h1">Border & Sizing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h2">Text Alignments & Display</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h3">Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h4">List & List Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h5">Images & Float</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#h6">Form</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <output id="h1" class="p-3 w-100  mt-3">
+    <h3>
+      <p class="p text-center">Border & Sizing</p>
+    </h3>
+    <div class="bg-light mt-2 p-4">First</div>
+    <div class="bg-light mt-2 p-4 border">Border</div>
+    <div class="bg-light mt-2 p-4 border-top">Border top</div>
+    <div class="bg-light mt-2 p-4 border-left">Border left</div>
+    <div class="bg-light mt-2 p-4 border border-secondary">Border color</div>
+    <div class="bg-light mt-2 p-4 border border-top-0">Border Top cixart</div>
+    <div class="bg-light mt-2 p-4 border border-left-0">Border left cixart</div>
+    <div class="bg-light mt-2 p-4 border border-primary rounded">Border radius</div>
+    <div class="bg-light mt-2 p-4 border border-primary rounded-top">Border top radius</div>
+
+    <div class="bg-success mt-2 p-4 w-25">Width 25%</div>
+    <div class="bg-success mt-2 p-4 w-50">Width 50%</div>
+    <div class="bg-success mt-2 p-4 w-75">Width 75%</div>
+    <div class="bg-success mt-2 p-4 w-100">Width 100%</div>
+
+    <div style="height: 200px;" class="aaa bg-success mt-2 p-4 w-25">
+      <div class="ms-1 bg-primary p-4 d-inline-block h-25"></div>
+      <div class="ms-1 bg-primary p-4 d-inline-block h-50"></div>
+      <div class="ms-1 bg-primary p-4 d-inline-block h-75"></div>
+      <div class="ms-1 bg-primary p-4 d-inline-block h-100"></div>
+    </div>
+
+    <div class="shadow bg-light mt-2 p-4">First</div>
+    <div class="shadow-sm bg-light mt-2 p-4">First</div>
+    <div class="shadow-lg bg-light mt-2 p-4">First</div>
+  </output>
+
+  <output id="h2" class="p-3 w-100">
+    <h3>
+      <p class="p text-center">Text Alignments & Display</p>
+    </h3>
+    <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet quaerat vel necessitatibus
+      tempore quis eveniet delectus sed at assumenda recusandae, tenetur tempora expedita. Quia expedita rerum atque
+      nobis beatae quo.</p>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tenetur quidem est rem
+      obcaecati ea, eius sapiente laboriosam, libero saepe eos. Rem, architecto. Obcaecati quasi quae ab tempore,
+      molestiae tempora.</p>
+    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium et debitis dolore
+      culpa, ut ratione magnam incidunt qui, maxime esse aperiam. Maiores molestias aspernatur distinctio architecto ad!
+      Officiis, sequi ipsum!</p>
+    <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias ut quos error autem
+      eaque, optio impedit quas nihil repellat mollitia a excepturi non veniam fuga quisquam aliquid nobis nostrum.
+      Ipsum.</p>
+
+    <blockquote class="blockquote">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam maiores assumenda omnis quasi doloribus odit
+        placeat, aliquid nisi voluptate quam explicabo architecto, magni id! Architecto ipsum quos nesciunt nisi
+        consequuntur?</p>
+      <footer class="blockquote-footer">ERLAMS</footer>
+    </blockquote>
+    <blockquote class="blockquote text-right">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, eius obcaecati esse saepe ullam adipisci velit
+        facere reprehenderit quod laboriosam voluptatibus illum beatae, distinctio earum eveniet voluptatem quisquam
+        suscipit autem.</p>
+      <footer class="blockquote-footer">ERLAMS</footer>
+    </blockquote>
+
+    <span class="d-block bg-danger mb-2">d-block</span>
+    <span class="d-block bg-danger">d-block</span>
+    <br><br>
+    <div class="bg-warning d-inline">d-inline</div>
+    <div class="bg-warning d-inline">d-inline</div>
+    <br><br>
+    <div class="bg-primary d-inline-block">
+      <h3>Product name</h3>
+      Description
+    </div>
+    <div class="bg-primary d-inline-block">
+      <h3>Product name</h3>
+      Description
+    </div>
+    <br><br>
+    <div class="bg-waning d-none">d-none ekrandan yox olur</div>
+    <div class="bg-warning invisible">Invisible ekrandan yox olsa da amma yeri qalir</div>
+  </output>
+
+  <h3>
+    <p id="h3" class="p text-center" style="display: flex; justify-content: center;">Table</p>
+  </h3>
+
+  <output class="table-responsive w-100" style="display: flex; justify-content: center; align-items: center;">
+    <table class="table table-dark table-stiped table-bordered table-hover mx-auto w-100"
+      style="display: flex; justify-content: center; align-items: center;">
+      <tr>
+        <th>Num</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Email</th>
+      </tr>
+      <tr class="table-primary">
+        <th>1</th>
+        <th>Elmaddin</th>
+        <th>Ahamzade</th>
+        <th>elmaddin@gmail.com</th>
+      </tr>
+      <tr class="table-warning">
+        <th>2</th>
+        <th>Leman</th>
+        <th>Esgerova</th>
+        <th>leman@gmail.com</th>
+      </tr>
+      <tr>
+        <th>3</th>
+        <th>Sadig</th>
+        <th>Agayev</th>
+        <th>sadig@gamil.com</th>
+      </tr>
+    </table>
+  </output>
+
+  <h3>
+    <p id="h4" class="p text-center" style="display: flex; justify-content: center;">List & List Groups</p>
+  </h3>
+
+  <output class="w-100 mx-auto my-4">
+    <ul class="list-unstyled">
+      <li>Lorem ipsum dolor sit.</li>
+      <li>Lorem ipsum dolor, sit.</li>
+    </ul>
+    <br><br>
+    <ul class="list-inline" style="display: flex;">
+      <li class="list-inline-item">Lorem,ipsum</li>
+      <li class="list-inline-item">Lorem .ipsum feda</li>
+      <li class="list-inline-item">Lorem voluptatem</li>
+    </ul>
+    <br><br>
+    <ul class="list-group w-100">
+      <li class="list-group-item active">Lorem , ipsum</li>
+      <li class="list-group-item">Lorem , ipsum</li>
+      <li class="list-group-item active">Lorem , ipsum</li>
+    </ul>
+    <br><br>
+    <ul>
+      <li class="list-group-item disabled">Lorem , ipsum</li>
+      <li class="list-group-item">Lorem , ipsum</li>
+      <li class="list-group-item">Lorem , ipsum</li>
+    </ul>
+    <br><br>
+    <div class="list-group w-50">
+      <a href="" class="list-group-tem list-group-item-action active">Lorem</a>
+      <a href="" class="list-group-tem list-group-item-action">Lorem</a>
+      <a href="" class="list-group-tem list-group-item-action disabled">Lorem</a>
+    </div>
+    <br><br>
+    <ul class="list-group w-100">
+      <li class="list-group-item list-group-item-primary">Lorem,ipsum.</li>
+      <li class="list-group-item list-group-item-secondary">Lorem,ipsum.</li>
+      <li class="list-group-item list-group-item-warning">Lorem,ipsum.</li>
+    </ul>
+  </output>
+
+  <h3>
+    <p id="h5" class="p text-center">Images & Float</p>
+  </h3>
+  <output class="w-100 mx-auto my-4">
+    <img src="img.jpg" alt="" class="rounded w-25">
+    <img src="img.jpg" alt="" class="rounded-circle w-25">
+    <img src="img.jpg" alt="" class="img-thumbnail w-25">
+    <br><br>
+    <img src="img.jpg" alt="" class="img-fluid w-25 mx-auto">
+    <br><br>
+    <img src="img.jpg" alt="" class="w float-start w-25">
+    <img src="img.jpg" alt="" class="w float-end w-25">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, fugiat earum? Sit odit doloribus alias quasi in
+      voluptatum non cumque neque nam quod deleniti architecto, tempora, asperiores itaque nihil placeat.
+    </p>
+    <br><br><br><br>
+    <div class="clearfix">
+      <img src="img.jpg" alt="" class="w-25 float-start">
+      <img src="img.jpg" alt="" class="w-25 float-end">
+    </div>
+    <br>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat illum sunt numquam, saepe unde, dolorem
+      voluptatum blanditiis placeat vitae architecto ad doloribus earum, praesentium nostrum hic modi! Sapiente,
+      consectetur facere.
+    </p>
+    <div class="bg-primary p-3 w-25 float-start"></div>
+    <div class="bg-warning p-3 w-75 float-start"></div>
+  </output>
+
+  <h3>
+    <p id="h6" class="p text-center">Form</p>
+  </h3>
+  <output class="w-100 mx-auto my-4" >
+    <form action="" class="w-100">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" class="form-control" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" placeholder="Enter password">
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <select name="city" id="city" class="form-control">
+          <option value="Baku">Baku</option>
+          <option value="Gence">Gence</option>
+          <option value="Lenkeran">Lenkeran</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="15" class="form-control"></textarea>
+      </div>
+      <div class="input-group mt-3">
+        <input type="text" class="form-control">
+        <div class="input-group-append">
+          <span class="input-group-text" id="ig">gmail@.com</span>
+        </div>
+      </div>
+      <div class="input-group mt-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">https://aspagroup/</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="clearfix">
+        <div class="float-start w-50">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Enter name">
+        </div>
+        <div class="float-start w-50">
+          <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" class="form-control" placeholder="Enter surname">
+          </div>
+        </div>
+      </div>
+    </form>
+  </output>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
